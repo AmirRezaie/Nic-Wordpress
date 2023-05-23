@@ -1,0 +1,225 @@
+body {
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+.container {
+  width: 97%;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow: auto;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  line-height: 45px;
+  text-decoration: none;
+  color: rgb(215, 215, 215);
+  font-size: smaller;
+}
+nav ul li a:first-child {
+  padding-top: 50px;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+header {
+  width: 100%;
+  background-color: #121212;
+}
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.text-and-support {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-text {
+  width: 50%;
+}
+.header h1 {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.header h1 span {
+  color: #707070;
+}
+.support {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 22.5%;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #232323;
+  padding-top: 3%;
+}
+.support p {
+  color: #707070;
+  margin-bottom: 0.2em;
+  /* margin-left: 2em; */
+  font-size: 0.9rem;
+}
+.call-to-support {
+  text-decoration: none;
+  color: #707070;
+}
+.call-to-support:hover {
+  color: #fff;
+}
+.category {
+  width: 100%;
+  height: 16vh;
+  color: #fff;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+.category-box {
+  width: 9.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.category-box p {
+  margin-top: 5%;
+}
+.first-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/macbook.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.second-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/ipad.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.third-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/iphone.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.fourth-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/iwatch.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.fifth-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/airpod.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fifth-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.sixth-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/accesories.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sixth-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.seventh-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/airtag.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seventh-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.eighth-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/headphone.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eighth-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.ninth-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/7939.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ninth-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
+.tenth-category {
+  width: 100%;
+  height: 5em;
+  background-image: url("../images/category-images/giftcard.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tenth-category:hover {
+  transform: translate(0, -20px);
+  transition-duration: 1s;
+}
